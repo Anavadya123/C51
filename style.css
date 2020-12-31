@@ -1,0 +1,56 @@
+h1{
+    color: salmon;
+    font-color:#ABBCED;
+    font-size: xx-large;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*
+*{
+    border:solid;
+
+}*/
+
+
+.header{
+   background-color:rgb(35, 153, 200);
+   display:flex;
+   justify-content: space-between;
+}
+.grid{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+   background-color: slateblue;
+}
+.footer{
+    display:flex;
+    justify-content:flex-end;
+}
+p,h2{
+    text-align: center;
+    background-color: powderblue;
+    font-size: large;
+    font-style: oblique;
+    font-family: cursive;
+}
+.items{
+    background-color: plum;
+}
+body{
+    background-color:rgb(33,04, 78);
+    margin: 0.5cm;
+    padding: 0.2cm;
+}
+.siteDescription{
+    display:flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+.aboutme{
+    display:flex;
+    flex-wrap:wrap;
+    font-style: inherit;
+    font-family: fantasy;
+    font-color:plum;
+}
